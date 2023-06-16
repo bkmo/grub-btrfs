@@ -3,8 +3,8 @@
 # Contributor: James W. Barnett <james at wbarnett dot us>
 
 pkgname=grub-btrfs
-pkgver=4.13
-pkgrel=3
+pkgver=4.13.1
+pkgrel=1
 pkgdesc='Include btrfs snapshots in GRUB boot options'
 arch=('any')
 url="https://github.com/bkmo/${pkgname}"
