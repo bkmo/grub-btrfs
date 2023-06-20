@@ -2,7 +2,7 @@
 # Contributor: gato_lento <vukk.euob at gmail dot com>
 # Contributor: James W. Barnett <james at wbarnett dot us>
 
-pkgname=grub-btrfs
+pkgname=grub-btrfs-bkmo
 pkgver=4.13.1
 pkgrel=1
 pkgdesc='Include btrfs snapshots in GRUB boot options'
@@ -10,6 +10,7 @@ arch=('any')
 url="https://github.com/bkmo/${pkgname}"
 license=('GPL3')
 depends=('btrfs-progs' 'grub')
+conflicts=('grub-btrfs')
 optdepends=(
     'snapper: For snapper support'
     'inotify-tools: For grub-btrfsd daemon'
